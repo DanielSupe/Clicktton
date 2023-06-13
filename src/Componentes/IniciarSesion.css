@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.IniciarSesion{
+    height: 100vh;
+    background-image: url("https://fondosmil.com/fondo/54336.png");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+.iniciar{
+    min-width: 25%;
+    min-height: 65vh;
+    background-color: aliceblue;
+    font-size: 0.8rem;
+    text-align: center;
+    border: 3px aliceblue solid;
+    box-shadow: 8px 5px 5px black;
+    border-radius: 15px;
+}
+.input{
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
+#title{
+    margin: 0;
+    padding-bottom: 15px;
+    border-bottom: 3px rgb(26, 99, 163) solid;
+}
+#botonIngresar{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.formularioInicio{
+    margin: 10px;
+}
+
+#botonIngresar:hover{
+    width: 80px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transition: .7s;
+}

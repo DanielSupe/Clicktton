@@ -7,15 +7,15 @@ export const Cuerpo = () => {
   return (
     <div className='cuerpo'>
         <div className='contenedor'>
-            <div className='juego1'>
+            <div className='juego'>
                 <Portada1/>
             </div>
 
-            <div className='juego2'>
+            <div className='juego'>
                <Portada2/>
             </div>
 
-            <div className='juego3'>
+            <div className='juego'>
                 <Portada3/>
             </div>
         </div>

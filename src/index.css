@@ -2,13 +2,24 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     background-color: rgb(14, 14, 70);
     font-family:cursive;
 }
+.Contactanos{
+    font-size: 2rem;
+    color: aliceblue;
+    display: inline-flex;
+    flex-direction: column;
+}
 
+.Contactanos > p{
+    border: 3px purple solid;
+    margin: 20px;
+}
 h3{
     margin: 10px;
 }
@@ -22,6 +33,10 @@ h3{
     align-items: center;
 }
 
+a{
+    color: black;
+}
+
 #titulos{
     width: 100%;
     display: flex;
@@ -29,12 +44,12 @@ h3{
     border-radius: 10px;
     justify-content: space-around;
     align-items: center;
+    border: 3px black solid;
 }
 
 #titulos p{
     padding: 5px;
     border-radius: 5px;
-    border: 2px black solid;
 }
 
 #titulos p:hover{
@@ -66,12 +81,13 @@ h3{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    border: 3px black solid;
 }
 
-.juego1,.juego2,.juego3{
+.juego{
     margin: 10px 0px;
     width: 300px;
-    height: 450px;
+    height: 480px;
     background-color: black;
     border: 3px gray solid;
     text-align: center;
@@ -84,7 +100,7 @@ h3{
     height: 226px;
 }
 
-.juego1 button,.juego2 button,.juego3 button{
+.juego button{
     cursor: pointer;
     width: 60px;
     height: 30px;
@@ -93,12 +109,157 @@ h3{
     margin: 5px;
 }
 
-.juego1 button:hover,.juego2 button:hover,.juego3 button:hover{
+.juego button:hover{
     border-radius: 10px;
     background-color: aliceblue;
     transition: .5s;
 }
+/*----------------------------------Juegos--------------------------- */
+.juego1{
+    margin: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(89, 46, 129);
+    overflow: hidden;
+    border: 3px black solid;
+    
+}
 
+.empezar {
+    text-align: center;
+    height: 90%;
+}
+
+#botonInicio{
+    border-style: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#botonInicio:hover{
+    background-color: purple ;
+    transition: .5s;
+}
+/*---------------------Posiciones ramdon-------------------------------- */
+.position1{
+    position: relative;
+    top: 20%;
+    left: 40%;
+}
+
+.position2{
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+.position3{
+    position: relative;
+    right: 5%;
+    top: 50%;
+}
+.position4{
+    position: relative;
+    top: 60%;
+    left: 5%;
+}
+.position5{
+    position: relative;
+    right: 40%;
+    top: 5%;
+}
+.position6{
+    position: relative;
+    left: 30%;
+
+}
+.position7{
+    position: relative;
+    top: 20%;
+    right: 40%;
+}
+.position8{
+    position: relative;
+    top: 40%;
+    left: 5%;
+}
+.position9{
+    position: relative;
+    right: 15%;
+    top: 50%;
+}
+.position10{
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+.position11{
+    position: relative;
+   right: 40%;
+   top: 20%;
+}
+.position12{
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+
+.position13{
+    position: relative;
+    right:25%;
+}
+.position14{
+    position: relative;
+    left: 15%;
+    top: 35%;
+}
+.position15{
+   position: relative;
+   right: 25%;
+   top: 10%;
+}
+.White{
+    color: aliceblue;
+}
+
+.cronometro{
+   margin: 50px;
+}
+/*---------------------------------------Juego2------------------------*/
+#clickclick{
+    border-radius: 10px;
+    width: 400px;
+    height:200px ;
+    background-color: black;
+    color: aliceblue;
+}
+
+#clickclick:active{
+    background-color: rgb(174, 172, 176);
+    transition: .5s;
+}
+
+/*--------------------------------------------Juego 3------------------------------------------*/
+.empezar3{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Crom3{
+    font-size: 3rem;
+    padding: 0px 40%;
+    text-align: center;
+
+}
+#botonEmpezar{
+    border-style: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 @media(max-width: 600px){
     #titulos{
         display: flex;

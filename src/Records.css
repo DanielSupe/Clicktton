@@ -1,0 +1,51 @@
+.Records{
+    height: 100vh;
+    background-image: url("https://fondosmil.com/fondo/54336.png");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    
+}
+
+.tabla{
+    text-align: center;
+    font-size: 2rem;
+    max-width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: 90% auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.tabla >*{
+    border:4px black solid ;
+}
+
+#tituloRec{
+    grid-column: span 2;
+}
+
+#volver{
+    width: 30px;
+    height: 30px;
+    align-self: self-end;
+}
+
+#formatear{
+    align-self: self-end;
+    position: relative;
+    bottom: 20px;
+}
+
+#formatearButton{
+    display: flex;
+}
+
+#formatearButton:hover{
+    background-color: rgb(92, 31, 149);
+    border-radius: 10px;
+    transition: .5s;
+}

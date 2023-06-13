@@ -8,7 +8,7 @@ export const Portada3 = () => {
         <p>
             ¡Ponte alerta! Tienes que precionar el boton justo cuando llegue al tiempo señalado, ¿tu atencion sera suficiente para ganar?
         </p>
-        <button>Jugar</button>
+        <a href='#jugar3'><button>Jugar</button></a>
     </>
   )
 }

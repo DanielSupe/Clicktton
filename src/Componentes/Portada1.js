@@ -6,9 +6,9 @@ export const Portada1 = () => {
         <h3>¡Atrapame si puedes!</h3>
         <img className='imagen' alt='Icono del juego' src={imagen}/>
         <p>
-            El boton se movera alrededor de la pantalla. ¡trata de tocarlo la mayor cantidad de veces posibles antes de que se termine el tiempo
+            El boton cambiara de lugar cada que lo atrapes. ¡trata de tocarlo la mayor cantidad de veces posibles antes de que se termine el tiempo
         </p>
-        <button>Jugar</button>
+        <a href='#jugar1'><button>Jugar</button></a>
     </>
   )
 }

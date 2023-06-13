@@ -6,9 +6,9 @@ export const Portada2 = () => {
          <h3>Click Click Click</h3>
         <img className='imagen' alt='Icono del juego' src={imagen}/>
         <p>
-            ¡Preciosa el boton lo mas rapido que puedas!, ¿Que tan rapido puedes precionar el boton antes de que te quedes sin tiempo?
+            ¡Preciona el boton lo mas rapido que puedas!, ¿Que tan rapido puedes precionar el boton antes de que te quedes sin tiempo?
         </p>
-        <button>Jugar</button>
+        <a href='#juego2'><button>Jugar</button></a>
     </>
   )
 }

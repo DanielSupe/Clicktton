@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.root2{
+    height: 100vh;
+    background-image: url("https://fondosmil.com/fondo/54336.png");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    
+}
+
+body{
+    margin: 0px;
+}
+
+.logo{
+    width: 180px;
+    height: 140px;
+    padding: 0;
+}
+.principal{
+    min-width: 25%;
+    background-color: aliceblue;
+    font-size: 0.8rem;
+    text-align: center;
+    border: 3px aliceblue solid;
+    box-shadow: 8px 5px 5px black;
+}
+.principal > *{
+    margin: 30px;
+}
+
+.titulo{
+    margin-top: px;
+    border-bottom: 3px rgb(54, 134, 205) solid;
+    padding: 10px;
+    
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#Yacuenta{
+    color: rgb(53, 104, 148);
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    background-color: rgb(35, 97, 151);
+    box-shadow: 5px 5px 5px black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 1px aliceblue solid;
+}
+
+input{
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px rgb(51, 109, 159) solid;
+}
+
+.rojo{
+    border: 2px red solid;
+}
+
+.verde{
+    border: 2px green solid;
+}
+
+#usuarioid, #contrasenaid{
+    display: flex;
+    width: 90%;
+    
+}
+
+#permiso{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+#label{
+    display: flex;
+    align-items: center;
+}
+
+.verde1{
+    border: 2px green solid;
+}
+
+.rojo1{
+    border: 2px red solid;
+}
+
+input:focus{
+    outline: none;
+}
+
+#cuentavalida{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+#iniciarS{
+    color: rgb(19, 86, 144);
+}
+.flexCuenta{
+    display: flex;
+    justify-content: center;
+}
