@@ -8,11 +8,12 @@ export const Contactanos = () => {
         <p>
             Correos:<br/>
             daniel.supelanos@unac.edu.co<br/>
-            andres.
+            andres.blancoq@unac.edu.co
         </p>
         <p>
             Telefonos:<br/>
             3052509653<br/>
+            3003135246
 
         </p>
     </div>
